@@ -1,3 +1,7 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/base:debian"
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    
+  "remoteEnv": {
+    "BLAH": "${localEnv:BLAH}"
+  }
 }
